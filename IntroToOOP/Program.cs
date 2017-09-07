@@ -34,8 +34,17 @@ namespace IntroToOOP
             Dog dog1 = new Dog();
             dog1.Run();
             dog1.Bark();
-            dog1.Cuddle();
+            dog1.Cuddle("Elizabeth");
             dog1.Potty();
+
+            Superhero hero1 = new Superhero("Good Guy");
+            hero1.FightEvil();
+            hero1.FightEvil();
+            hero1.NextLevel();
+            hero1.FightEvil();
+            hero1.NextLevel();
+            hero1.NextLevel();
+            
         }
     }
 }

@@ -25,8 +25,6 @@ namespace IntroToOOP
             //Some values you just get and some values you just set.
         }
 
-   
-
         public int Age
         {
             get { return this.age; }  //we don't want to set the age (we want it to start at 0, the default value) so we just put a get.
@@ -64,7 +62,7 @@ namespace IntroToOOP
         //OVERLOADING the constructor with different parameters
         //Where you set the values of the fields, instance variables
         //'This' references INSTANCES
-        public Cat(string name, string furColor, int furLength, bool isMale, int age, bool isHungry)
+        public Cat(string name, string furColor, int furLength, bool isMale, int age, bool isHungry) //allows user to PASS in values
         {
             this.name = name;
             this.furColor = furColor;
